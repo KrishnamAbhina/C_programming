@@ -1,0 +1,135 @@
+<html>
+    <head>
+        <script type="text/javascript">
+
+            function run()
+            {
+              var a,b,c,text,text1,y,k,m;
+              var text2,text3,text4,text5;
+              a=document.getElementById("1").value;
+              if(a=="")
+              {
+                text="*Name cant be left empty !!";
+              }
+              else
+              {
+                text="";
+              }
+              document.getElementById("a1").innerHTML=text;
+            
+              {
+                var atpos = document.getElementById("2").value;
+
+                
+                
+                
+                if (atpos >1 || ( (dotpos - atpos) >2 )) {
+                 text1="Valid mail";
+                }
+                elsetext1="";
+               }
+               document.getElementById("a2").innerHTML=text1;
+            
+y=document.getElementById("4")
+b=document.getElementById("3")
+if(b=="")
+{
+    text3="Enter passowrd";
+}
+else if(b<6)
+{
+    text3="Password must be greateer than"
+}
+            
+              if(y!=b)
+              {
+                text2="Not Matching"
+
+
+              }
+              document.getElementById("a4").innerHTML=text2;
+            }
+
+            </script>
+  
+
+
+
+        <style>
+
+        table,tr,th,td
+        {
+            width: 1220px;height:70px;
+            border: none;
+        }
+            </style>
+            
+    </head>
+    <body>
+        <table >
+            <th style="text-align: center">
+
+           
+
+        
+        <span style="font-weight: bolder;font-size: 50px">
+        Developer Application Form</span>
+
+        
+       
+    </th>
+    </table>
+
+    Full name : <input type="text" id="1"> <p id="a1"></p>
+    <br>
+    Email : <input type="email" id="2"><p id="a2"></p>
+    <br>
+    Password: <input type="password" id="3"><p id="a3"></p>
+    <br>
+    Reenter password: <input type="password" id="4"><p id="a4"></p>
+    <br>
+    Years of experience : <input type="number" id="5"><p id="a5"></p>
+    <br>
+    Programming languages (select all that apply):
+    <br>
+    <label for="a6">
+        preferences
+    </label>
+    <input type="checkbox" id="a6" value="">Java Script
+    <input type="checkbox" id="a6" value="">Python
+    <input type="checkbox" id="a6" value="">Java
+    <br>
+    Prefered front end 
+    <br>
+    <input type="radio" id="gend"  name="gend" value=" my value1">Front end
+<input type="radio" id="gend"  name="gend" value="my value 2">Back end
+<br>
+Hourly rate (in USD) : <input type="range"> $30
+<br>
+Additional Information  :
+<label > <textarea id="7" name="area" cols="38" rows="8" style="text-align: right;"></textarea> </p>
+</lable><p id="a7"></p>
+<table>
+    <tr>
+        <td>
+            <button type="submit" onclick=run()> submit</button>
+
+
+        </td>
+        <td>
+            <form action="endsem4-22331.html">
+
+                <input type="submit" name="reset" value="reset">
+                </form>
+
+            </td>
+
+
+    </tr>
+</table>
+
+
+
+
+    </body>
+</html>
